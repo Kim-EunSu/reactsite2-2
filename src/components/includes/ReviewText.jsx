@@ -23,7 +23,7 @@ const ReviewTextText = [
     id: 3,
     desc: " 괜찮은 빵 신흥강자를 느껴보고 먹고싶다면 로와이드 오랜만에 빵다운 빵을 먹은것 같아서 너무 기분이 좋았다 소금빵의 성지라는데 소금빵은 다른곳이 더 괜찮은 느낌이었다 밀도 베이크스튜디오 등등 성수에서 꽉 자리를 잡고있는 곳들이 즐비한대 새로운 도전을 하고싶다면 추천",
     image1: "assets/img/smile.jpg",
-    title: "빵의 정석",
+    title: "LOWIDE",
     image2: "assets/img/star5.png",
     address: "성동구 서울숲2길 22-1",
     button: "자세히보기",
@@ -37,8 +37,8 @@ function ReviewTextInfo({ id, desc, image1, title, image2, address, button }) {
       <div className="profile">
         <img src={image1} alt={title} />
         <span className="name">{title}</span>
-        <img src={image2} alt={title} />
-        <span className="study">{address} </span>
+        <span className="address">{address} </span>
+        <img src={image2} alt={title} className="star" />
       </div>
       <div className="button">
         <a href="/">{button}</a>

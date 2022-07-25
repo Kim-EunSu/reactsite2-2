@@ -1,0 +1,52 @@
+.card_container{
+    max-width: 1260px;
+    padding: 6vw;
+    margin: 0 auto;
+    background: #fff9f7;
+}
+
+.card_title{
+    text-align: center;
+}
+
+.card_title h2{
+    font-size: 50px;   
+}
+
+.card_title span{
+    font-size: 22px;
+    font-weight: 300;
+    color: #67778A;
+    margin: 30px 0 70px;
+    display: inline-block;
+    font-family: 'GmarketSans';
+}
+
+.card_cont{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.card_inner{
+    width: 23%;
+    margin-bottom: 50px;
+}
+
+.card_inner img{
+    border-radius: 10px;
+}
+
+.card_desc h3{
+    font-size: 
+    23px;
+    margin: 20px 0 10px;
+    background-image: url(../img/button1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.card_desc span{
+    font-size: 18px;
+    color: #5555;
+}

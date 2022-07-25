@@ -1,0 +1,43 @@
+.image_container {
+  max-width: 1260px;
+  padding: 6vw;
+  margin: 0 auto;
+}
+.image_title {
+  text-align: center;
+  h2 {
+    font-size: 50px;
+  }
+  span {
+    font-size: 22px;
+    font-weight: 300;
+    color: #777;
+    margin: 20px 0 70px;
+    display: inline-block;
+    font-family: "NexonLv1Gothic";
+  }
+}
+.image_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgae_inner {
+  position: relative;
+  text-align: center;
+  margin: 1vw;
+  img {
+    width: 22vw;
+  }
+}
+.image_text {
+  width: 100%;
+  opacity: 0.6;
+  bottom: 0;
+  padding: 15px 0;
+  background: #777;
+  position: absolute;
+  h3 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,23 @@
+.header_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  border-bottom: 1px solid #636363;
+}
+.header_logo {
+  flex-basis: 25%;
+  font-family: "GmarketSans";
+}
+.header_menu {
+  flex-basis: 75%;
+  ul {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    li {
+      flex-basis: 15%;
+      font-size: 16px;
+    }
+  }
+}
